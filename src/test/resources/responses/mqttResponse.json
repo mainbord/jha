@@ -1,0 +1,29 @@
+{
+  "battery": 0,
+  "boost_heating": "OFF",
+  "boost_heating_countdown": 0,
+  "boost_heating_countdown_time_set": null,
+  "child_lock": null,
+  "current_heating_setpoint": 21,
+  "eco_mode": null,
+  "eco_temperature": null,
+  "linkquality": 69,
+  "local_temperature": 21,
+  "local_temperature_calibration": null,
+  "max_temperature": null,
+  "min_temperature": null,
+  "position": 25,
+  "preset": "manual",
+  "programming_mode": null,
+  "running_state": "heat",
+  "system_mode": "heat",
+  "update": {
+    "installed_version": -1,
+    "latest_version": -1,
+    "state": null
+  },
+  "update_available": null,
+  "valve_state": "OPEN",
+  "window": null,
+  "window_detection": "OFF"
+}
