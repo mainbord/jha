@@ -3,11 +3,11 @@ package mcorp;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
-import lombok.Data;
+import jakarta.enterprise.context.ApplicationScoped;
 import lombok.Getter;
 
-@Data
 @Getter
+@ApplicationScoped
 public class AppConfig {
 
     private ObjectMapper objectMapper = new ObjectMapper()
